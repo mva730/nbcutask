@@ -39,14 +39,9 @@ public class FilmsPage extends BasePage {
         return filmNameLabel;
     }
 
-    public List<WebElement> getFilms() {
-        return films;
-    }
-
-    public FilmsPage selectMovie(String movieName) {
+    public void selectMovie(String movieName) {
         filmSelector.click();
         WaitService.waitUntilElementIsDisplayed(films.get(films.size() - 1));
         films.stream().filter(el -> el.getText().contains(movieName)).findAny().get().click();
-        return this;
     }
 }

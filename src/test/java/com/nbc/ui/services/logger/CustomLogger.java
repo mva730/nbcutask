@@ -43,12 +43,11 @@ public class CustomLogger {
      *            Message, which will be shown in log
      */
     public void step(String message) {
-        String finalMessage = message;
-        logAtLevel(StepLevel.STEP, finalMessage);
+        logAtLevel(StepLevel.STEP, message);
     }
 
     /**
-     * Method logs at ErStepror level with String.format
+     * Method logs at Error level with String.format
      *
      * @param formatPattern
      *            String format pattern

@@ -30,7 +30,7 @@ public class SwapiAPITest {
         Assert.assertEquals(jsonPath.getInt("results.find{it.name == 'Alderaan'}.rotation_period"), planetAlderaanExpectedRotationPeriod, "Verifying Alderaan rotation period");
 
         int planetBespinExpectedDiameter = 118000;
-        Assert.assertEquals(jsonPath.getInt("results.find{it.name == 'Bespin'}.diameter"), planetBespinExpectedDiameter, "Verifying Bespin diametr");
+        Assert.assertEquals(jsonPath.getInt("results.find{it.name == 'Bespin'}.diameter"), planetBespinExpectedDiameter, "Verifying Bespin diameter");
 
         Assert.assertTrue(jsonPath.get("results.any{it.climate == 'temperate'}"), "Verifying if planets with temperate climate are present");
     }

@@ -6,7 +6,6 @@ import com.nbc.ui.driverfactory.WebDriverSession;
 import com.nbc.ui.services.logger.CustomLogger;
 
 public class BasePage {
-    public static final CustomLogger LOG = new CustomLogger();
 
     protected WebDriver driver;
 

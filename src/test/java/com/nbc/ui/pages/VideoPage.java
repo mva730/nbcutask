@@ -26,22 +26,12 @@ public class VideoPage extends BasePage {
     @FindBy(xpath = "//div[@class='suggestionNoResults']//h2//span")
     private WebElement noResultsLabel;
 
-    private List<WebElement> results;
-
     public WebElement getSearchVideoInput() {
         return searchVideoInput;
     }
 
     public WebElement getVideoButton() {
         return videoButton;
-    }
-
-    public void setVideoButton(WebElement videoButton) {
-        this.videoButton = videoButton;
-    }
-
-    public WebElement getSearchButton() {
-        return searchButton;
     }
 
     public WebElement getResultsLabel() {
@@ -57,13 +47,12 @@ public class VideoPage extends BasePage {
     }
 
     public void setResults(List<WebElement> results) {
-        this.results = results;
+        List<WebElement> results1 = results;
     }
 
-    public VideoPage search(String videoName) {
+    public void search(String videoName) {
         searchVideoInput.clear();
         searchVideoInput.sendKeys(videoName);
         searchButton.click();
-        return this;
     }
 }
