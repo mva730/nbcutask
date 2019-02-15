@@ -55,7 +55,7 @@ public class SwapiAPITest {
     public void findPlanetByIncorrectIdTest() {
         SwapiAPIObject swapiAPIObject = new SwapiAPIObject();
 
-        LOG.step("Step 1 - Find planet by id");
+        LOG.step("Step 1 - Find planet by incorrect id");
         Response response = swapiAPIObject.findById(456);
         final JsonPath jsonPath = response.jsonPath();
 
