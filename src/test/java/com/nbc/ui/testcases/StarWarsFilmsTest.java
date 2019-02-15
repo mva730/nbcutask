@@ -25,6 +25,4 @@ public class StarWarsFilmsTest extends BaseTest {
         Assert.assertTrue(filmsPage.getFilmNameLabel().getText().contains(movieName));
         Assert.assertTrue(filmsPage.getFilmDescription().getText().contains(DESCRIPTION_PART));
     }
-
-
 }

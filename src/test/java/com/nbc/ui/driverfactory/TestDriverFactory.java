@@ -45,7 +45,6 @@ public class TestDriverFactory {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
-        options.addArguments("--disable-browser-side-navigation");
         driver = new ChromeDriver(options);
         return driver;
     }
