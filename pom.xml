@@ -78,24 +78,24 @@
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.5.1</version>
-                <configuration>
+                <com.nbc.configuration>
                     <source>1.8</source>
                     <target>1.8</target>
                     <encoding>UTF-8</encoding>
-                </configuration>
+                </com.nbc.configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.19.1</version>
-                <configuration>
+                <com.nbc.configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>${testng.xml.file}</suiteXmlFile>
                     </suiteXmlFiles>
                     <testFailureIgnore>true</testFailureIgnore>
                     <properties>
                     </properties>
-                </configuration>
+                </com.nbc.configuration>
             </plugin>
         </plugins>
     </build>

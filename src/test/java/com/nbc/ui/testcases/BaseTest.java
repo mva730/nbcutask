@@ -1,11 +1,11 @@
-package ui.testcases;
+package com.nbc.ui.testcases;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
-import ui.driverfactory.TestDriverFactory;
-import ui.driverfactory.WebDriverSession;
-import ui.services.logger.CustomLogger;
+import com.nbc.ui.driverfactory.TestDriverFactory;
+import com.nbc.ui.driverfactory.WebDriverSession;
+import com.nbc.ui.services.logger.CustomLogger;
 
 public class BaseTest {
     public static final CustomLogger LOG = CustomLogger.getLogger();

@@ -1,4 +1,4 @@
-package configuration;
+package com.nbc.configuration;
 
 import org.aeonbits.owner.Config;
 import org.aeonbits.owner.Config.Sources;

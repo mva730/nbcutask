@@ -1,8 +1,8 @@
-package ui.pages;
+package com.nbc.ui.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import ui.services.waitservice.WaitService;
+import com.nbc.ui.services.waitservice.WaitService;
 
 import java.util.List;
 

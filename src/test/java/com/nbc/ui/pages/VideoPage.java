@@ -1,9 +1,9 @@
-package ui.pages;
+package com.nbc.ui.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import ui.driverfactory.WebDriverSession;
+import com.nbc.ui.driverfactory.WebDriverSession;
 
 import java.util.List;
 

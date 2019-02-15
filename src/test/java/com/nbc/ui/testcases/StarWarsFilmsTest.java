@@ -1,9 +1,9 @@
-package ui.testcases;
+package com.nbc.ui.testcases;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import ui.pages.FilmsPage;
-import ui.services.waitservice.WaitService;
+import com.nbc.ui.pages.FilmsPage;
+import com.nbc.ui.services.waitservice.WaitService;
 
 public class StarWarsFilmsTest extends BaseTest {
     @Test

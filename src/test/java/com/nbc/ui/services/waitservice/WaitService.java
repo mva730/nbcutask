@@ -1,10 +1,10 @@
-package ui.services.waitservice;
+package com.nbc.ui.services.waitservice;
 
-import configuration.ConfigurationReader;
+import com.nbc.configuration.ConfigurationReader;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import ui.driverfactory.WebDriverSession;
+import com.nbc.ui.driverfactory.WebDriverSession;
 
 public class WaitService {
 

@@ -1,9 +1,9 @@
-package ui.pages;
+package com.nbc.ui.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
-import ui.driverfactory.WebDriverSession;
-import ui.services.logger.CustomLogger;
+import com.nbc.ui.driverfactory.WebDriverSession;
+import com.nbc.ui.services.logger.CustomLogger;
 
 public class BasePage {
     public static final CustomLogger LOG = new CustomLogger();

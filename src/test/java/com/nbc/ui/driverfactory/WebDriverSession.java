@@ -1,4 +1,4 @@
-package ui.driverfactory;
+package com.nbc.ui.driverfactory;
 
 import org.openqa.selenium.WebDriver;
 

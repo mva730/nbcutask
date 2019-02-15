@@ -1,4 +1,4 @@
-package ui.services.logger;
+package com.nbc.ui.services.logger;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;

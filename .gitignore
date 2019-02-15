@@ -27,3 +27,5 @@ hs_err_pid*
 .idea/vcs.xml
 .idea/workspace.xml
 target/
+.idea/
+nbcutask.iml

@@ -1,11 +1,11 @@
-package ui.driverfactory;
+package com.nbc.ui.driverfactory;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import configuration.ConfigurationReader;
+import com.nbc.configuration.ConfigurationReader;
 
 import java.net.MalformedURLException;
 import java.net.URL;

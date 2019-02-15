@@ -1,10 +1,10 @@
-package ui.testcases;
+package com.nbc.ui.testcases;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import ui.pages.VideoPage;
-import ui.services.waitservice.WaitService;
+import com.nbc.ui.pages.VideoPage;
+import com.nbc.ui.services.waitservice.WaitService;
 
 public class StarWarsVideosTest extends BaseTest {
 
