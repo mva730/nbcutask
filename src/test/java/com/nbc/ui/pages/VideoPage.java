@@ -46,10 +46,6 @@ public class VideoPage extends BasePage {
         return WebDriverSession.getCurrentSession().findElements(By.xpath(RESULTS_XPATH));
     }
 
-    public void setResults(List<WebElement> results) {
-        List<WebElement> results1 = results;
-    }
-
     public void search(String videoName) {
         searchVideoInput.clear();
         searchVideoInput.sendKeys(videoName);

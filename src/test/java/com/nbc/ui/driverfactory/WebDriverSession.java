@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 public class WebDriverSession {
 
-    private static ThreadLocal<WebDriver> currentSession = new ThreadLocal<WebDriver>();
+    private static ThreadLocal<WebDriver> currentSession = new ThreadLocal<>();
 
     public static WebDriver getCurrentSession() {
 		return currentSession.get();

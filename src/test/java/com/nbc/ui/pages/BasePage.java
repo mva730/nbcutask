@@ -1,9 +1,8 @@
 package com.nbc.ui.pages;
 
+import com.nbc.ui.driverfactory.WebDriverSession;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
-import com.nbc.ui.driverfactory.WebDriverSession;
-import com.nbc.ui.services.logger.CustomLogger;
 
 public class BasePage {
 
