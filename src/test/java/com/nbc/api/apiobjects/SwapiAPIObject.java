@@ -7,10 +7,10 @@ public class SwapiAPIObject {
     private static final String SWAPI_BASE_URL = "http://swapi.co/api/planets/";
 
     public Response findAll(){
-        return RestAssured.given().get(SWAPI_BASE_URL);
+        return RestAssured.get(SWAPI_BASE_URL);
     }
 
     public Response findById(Integer id){
-        return RestAssured.given().get(SWAPI_BASE_URL + id);
+        return RestAssured.get(SWAPI_BASE_URL + id);
     }
 }
